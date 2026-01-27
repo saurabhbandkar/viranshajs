@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Build output (we only want source code in Git)
+dist/
+*.tsbuildinfo
+
+# Environment secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
