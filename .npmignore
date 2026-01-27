@@ -1,0 +1,25 @@
+# Ignore source files (users only need the /dist folder)
+src/
+tsconfig.json
+tsup.config.ts
+
+# Ignore test files
+tests/
+__tests__/
+*.test.ts
+*.spec.ts
+vitest.config.ts
+
+# Ignore development & CI configs
+.github/
+.vscode/
+.husky/
+.gitignore
+.prettierrc
+.eslintrc.json
+
+# Ignore logs and local env
+*.log
+.env
+
+node_modules/
