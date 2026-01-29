@@ -17,6 +17,10 @@
 const toTitleCase = (str: string): string => {
   if (!str) return "";
 
+  if (typeof str !== "string") {
+    return str;
+  }
+
   return str
     .replace(/[_-]+/g, " ")
     .replace(/([a-z])([A-Z])/g, "$1 $2")
